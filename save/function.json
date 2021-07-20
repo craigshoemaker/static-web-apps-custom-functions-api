@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "direction": "in",
+      "type": "queueTrigger",
+      "name": "message",
+      "queueName": "messages",
+      "connection": "StorageConnectionString"
+    },
+    {
+      "direction": "out",
+      "type": "table",
+      "name": "volunteersTable",
+      "tableName": "volunteers",
+      "connection": "StorageConnectionString"
+    }
+  ]
+}

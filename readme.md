@@ -2,6 +2,8 @@
 
 Take advantage of the flexibility of Azure Functions and leverage the ease-of-use of Azure Static Web Apps.
 
+For context of how and why to use this application, see [Azure Static Web Apps with Custom Functions](https://github.com/craigshoemaker/static-web-apps-custom-functions#background)
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/)

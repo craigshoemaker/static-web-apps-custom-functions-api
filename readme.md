@@ -6,6 +6,13 @@ For context of how and why to use this application, see [Azure Static Web Apps w
 
 ## Prerequisites
 
+- [Azure account](https://portal.azure.com/)
+  - If you don't have one, get a [free trial](https://azure.microsoft.com/free)
+- Create the following Azure services:
+  - Azure Functions
+  - Azure Storage account
+    - Create a message queue named `messages`
+    - Create a table named `volunteers`
 - [Node.js](https://nodejs.org/)
 - [Azure Functions VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 
@@ -22,5 +29,11 @@ For context of how and why to use this application, see [Azure Static Web Apps w
 1. Install dependencies:
 
     `npm install`
+
+1. Rename example file:
+
+  `git mv local.settings.EXAMPLE.json local.settings.json`
+
+1. Open *local.settings.json* and paste the connection string to your Azure Storage account as the value for both `AzureWebJobsStorage` and `StorageConnectionString`;
 
 1. Press <kbd>F5</kbd> to start a debugging session

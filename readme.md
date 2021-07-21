@@ -34,6 +34,6 @@ For context of how and why to use this application, see [Azure Static Web Apps w
 
     `git mv local.settings.EXAMPLE.json local.settings.json`
 
-1. Open *local.settings.json* and paste the connection string to your Azure Storage account as the value for both `AzureWebJobsStorage` and `StorageConnectionString`;
+1. Open *local.settings.json* and paste the connection string to your Azure Storage account as the value for both `AzureWebJobsStorage` and `StorageConnectionString`.
 
 1. Press <kbd>F5</kbd> to start a debugging session

@@ -15,6 +15,7 @@ For context of how and why to use this application, see [Azure Static Web Apps w
     - Create a table named `volunteers`
 - [Node.js](https://nodejs.org/)
 - [Azure Functions VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+- [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)
 
 ## Get started
 
